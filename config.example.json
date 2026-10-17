@@ -1,0 +1,19 @@
+{
+  "device_id": "your-device-id",
+  "ip": "Auto",
+  "local_key": "your-local-key",
+  "version": 3.3,
+  "title": "電風扇守護",
+  "language": "zh-TW",
+  "http_host": "0.0.0.0",
+  "http_port": 8765,
+  "http_password": "",
+  "min_revert_interval": 0.5,
+  "max_reverts_per_minute": 30,
+  "dps": {
+    "1": {"name": "電源", "options": [true, false], "labels": ["開", "關"]},
+    "3": {"name": "風速", "options": [1, 2, 3, 4, 5, 6, 7]},
+    "5": {"name": "左右擺頭", "options": [true, false], "labels": ["開", "關"]},
+    "15": {"name": "燈光", "options": [true, false], "labels": ["開", "關"]}
+  }
+}

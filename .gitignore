@@ -1,0 +1,10 @@
+# 個人設定與執行狀態：裡面有 local key，絕對不能上傳
+config.json
+guard_state*.json
+*.tmp
+
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.log
